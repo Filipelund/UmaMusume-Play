@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/Icon-site-eps.ico" type="image/png">
+    <title>Ep.2 - BNW no Chikai</title>
+
+
+<style>
+
+
+
+body {
+background-color: #000000;
+}
+
+
+
+
+.Barra-superior {
+position: -webkit-sticky;
+top: 0;
+border-radius: 50%;
+color: white;
+display: flex;
+justify-content: center;/* Centraliza o conteúdo */
+align-items: center;
+height: 150px;
+width: 100%; /* Garantir que ocupe toda a largura */
+}
+
+
+
+.Barra-superior h1 {
+font-size: 30px;
+font-weight: bold;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+margin-right: 5px; /* Espaço entre o título e a imagem */
+margin-left: 15px;
+margin-bottom: 70px;
+color: RGB(255, 215, 0); /* Amarelo */
+border-bottom: 2px solid rgb(25, 25, 112); /* Azul royal */
+box-shadow: -5px -5px 5px rgb(25, 25, 112);
+-webkit-box-shadow: -5px -5px 5px rgb(25, 25, 112);
+border-radius: 4px;
+border-bottom: 2px solid white;
+}
+
+
+
+
+
+
+.imagem-barra-superior {
+width: 50px;
+height: 50px;
+margin-bottom: 70px;
+background-image: url('Images/Capa-do-titulo.webp'); /* Substitua com a URL da imagem desejada */
+background-size: cover;
+background-position: center;
+border-radius: 50%;
+border: 2px solid RGB(70, 0, 130);
+}
+
+
+
+
+
+
+
+
+
+.iframe-drive {
+border-radius: 15px;
+}
+
+
+
+
+
+
+.icones-uteis {
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+gap: 10px;
+}
+
+
+.icones-uteis h1 {
+border: 2px solid gray;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 16px;
+}
+
+.menu {
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.icones-uteis h1:active {
+transform: scale(0.95);
+border-color: #ffffffcc;
+box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.9); /* brilho intenso */
+}
+
+
+
+
+
+
+
+.titulo-ep {
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+font-size: 10px;
+font-style: italic;
+}
+
+
+
+
+
+
+.foto-final {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.foto-final img {
+width: 100px;
+filter: drop-shadow(3px 3px 2px rgba(255, 255, 255, 0.8));
+}
+
+
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+<div class="Barra-superior">
+
+
+<h1>UmaMusume-Play</h1>
+<div class="imagem-barra-superior"></div>
+
+
+
+</div>
+
+
+
+
+
+<iframe src="https://drive.google.com/file/d/1G5g2_1xWTXFQPeHSOEt1g-X6HdxKZFUE/preview" 
+width="100%" height="300" allow="autoplay"></iframe>
+
+
+
+
+<br><br>
+
+
+
+
+<div class="icones-uteis">
+
+
+<h1 id="seta-anterior">&#8678; Episódio Anterior</h1>
+
+<h1 id="menu" class="menu">Menu</h1>
+
+<h1 id="seta-proxima">Próximo Episódio &#8680;</h1>
+
+
+</div>
+
+
+
+<br>
+
+
+
+<div class="titulo-ep">
+
+<h1>Uma Musume: Pretty Derby - BNW no Chikai - Episódio 2</h1>
+
+</div>
+
+
+
+
+
+
+<div class="foto-final">
+
+<img src="Images/Gato-final.webp">
+
+</div>
+
+
+
+
+
+
+<script>
+
+
+
+//Seta anterior - código
+const setaEsquerda = document.getElementById("seta-anterior")
+
+setaEsquerda.onclick = function() {
+window.location.href = "Ep1.html"
+}
+
+//-------
+
+
+//Menu - código
+const menu = document.getElementById("menu")
+
+menu.onclick = function() {
+window.location.href = "Umaplay.html"
+}
+
+//-------
+
+
+//Seta próxima - código 
+const setaProxima = document.getElementById("seta-proxima")
+
+setaProxima.onclick = function() {
+window.location.href = "Ep3.html"
+}
+
+
+
+
+</script>
+
+
+
+
+    
+</body>
+</html>
